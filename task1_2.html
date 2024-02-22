@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task1-2</title>
+    <script>
+        function change(){
+            var all = document.getElementById("output")
+            if(all.textContent == 'change text'){
+                all.textContent = 'Change me'
+            }else{
+                all.textContent = 'change text'
+            }
+        }
+    </script>
+</head>
+<body>
+    <button>
+        <a href="https://www.google.com">Google</a>
+    </button>
+    <button>
+        <a href="https://www.slack.com">Slack</a>
+    </button><br></br>
+    <button onclick="change()">
+        clik me
+    </button> <br></br>
+    <p id="output">Change me</p>
+</body>
+</html>

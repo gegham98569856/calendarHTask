@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Task4</title>
+<script>
+    function change(){
+        var ch = document.getElementById('change')
+        if(ch.textContent == 'Hello'){
+            ch.textContent = 'Goodbye'
+        }else{
+            ch.textContent = "Hello"
+        }
+    }
+</script>
+</head>
+<body>
+    <button id="change" onclick="change()"> Hello </button>
+</body>
